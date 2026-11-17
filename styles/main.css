@@ -33,6 +33,11 @@ footer {
     color: #fff;
     padding: 2rem var(--pad) 1.2rem;
 }
+footer img {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+}
 .footerSmall {
     font-size: 0.8rem;
     text-align: center;
@@ -302,6 +307,10 @@ nav a:focus-visible::after {
         width: 100%;
         display: table-row;
         text-align: center;
+    }
+
+    footer img {
+        max-width: 15rem;
     }
 
     nav {
